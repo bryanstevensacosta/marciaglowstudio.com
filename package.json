@@ -1,7 +1,16 @@
 {
-  "name": "my-v0-project",
+  "name": "marciaglowstudio",
   "version": "0.1.0",
   "private": true,
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Bryan Acosta",
+    "email": "marciaglowstudio@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryanacosta/marciaglowstudio"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",
