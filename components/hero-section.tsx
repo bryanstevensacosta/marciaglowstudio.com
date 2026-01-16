@@ -1,12 +1,18 @@
-import Link from "next/link"
-import Image from "next/image"
+import Link from 'next/link'
+import Image from 'next/image'
 
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20 overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0 z-0">
-        <Image src="/luxury-beauty-salon-interior-dark-elegant-gold-acc.jpg" alt="" fill className="object-cover" priority />
+        <Image
+          src="/luxury-beauty-salon-interior-dark-elegant-gold-acc.jpg"
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        />
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-background/85" />
       </div>
@@ -24,8 +30,8 @@ export function HeroSection() {
           Glow That Reflects Your Essence
         </h1>
         <p className="mt-8 text-muted-foreground max-w-xl leading-relaxed mx-auto text-xl font-sans">
-          Professional hair and nail services designed to enhance your natural beauty with premium products and expert
-          care.
+          Professional hair and nail services designed to enhance your natural beauty with premium
+          products and expert care.
         </p>
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
