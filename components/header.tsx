@@ -1,5 +1,5 @@
-import Link from "next/link"
-import Image from "next/image"
+import Link from 'next/link'
+import Image from 'next/image'
 
 export function Header() {
   return (
@@ -15,13 +15,22 @@ export function Header() {
           />
         </Link>
         <nav className="hidden md:flex items-center gap-8">
-          <Link href="#services" className="text-sm text-muted-foreground hover:text-accent transition-colors font-sans">
+          <Link
+            href="#services"
+            className="text-sm text-muted-foreground hover:text-accent transition-colors font-sans"
+          >
             Services
           </Link>
-          <Link href="#about" className="text-sm text-muted-foreground hover:text-accent transition-colors font-sans">
+          <Link
+            href="#about"
+            className="text-sm text-muted-foreground hover:text-accent transition-colors font-sans"
+          >
             About
           </Link>
-          <Link href="#contact" className="text-sm text-muted-foreground hover:text-accent transition-colors font-sans">
+          <Link
+            href="#contact"
+            className="text-sm text-muted-foreground hover:text-accent transition-colors font-sans"
+          >
             Contact
           </Link>
         </nav>

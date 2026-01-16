@@ -1,6 +1,6 @@
-import { MapPin, Clock, Phone, MessageCircle, Instagram, Send } from "lucide-react"
-import Link from "next/link"
-import Image from "next/image"
+import { MapPin, Clock, Phone, MessageCircle, Instagram, Send } from 'lucide-react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 export function ContactSection() {
   return (
@@ -9,8 +9,12 @@ export function ContactSection() {
       <div className="py-24 md:py-32 px-6 bg-secondary">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <p className="text-sm uppercase tracking-[0.3em] text-accent mb-4 font-sans">Get in Touch</p>
-            <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground">Visit Our Studio</h2>
+            <p className="text-sm uppercase tracking-[0.3em] text-accent mb-4 font-sans">
+              Get in Touch
+            </p>
+            <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground">
+              Visit Our Studio
+            </h2>
           </div>
 
           {/* Main contact grid */}
@@ -45,7 +49,9 @@ export function ContactSection() {
                   <Clock className="w-6 h-6 text-accent" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <h3 className="font-medium text-foreground text-lg mb-2 font-sans">Working Hours</h3>
+                  <h3 className="font-medium text-foreground text-lg mb-2 font-sans">
+                    Working Hours
+                  </h3>
                   <div className="text-muted-foreground space-y-1">
                     <div className="flex justify-between gap-8">
                       <span className="font-sans">Mon - Fri</span>
@@ -71,11 +77,16 @@ export function ContactSection() {
                 <div>
                   <h3 className="font-medium text-foreground text-lg mb-2 font-sans">Contact</h3>
                   <p className="text-muted-foreground">
-                    <Link href="tel:+5511999999999" className="hover:text-accent transition-colors font-sans">
+                    <Link
+                      href="tel:+5511999999999"
+                      className="hover:text-accent transition-colors font-sans"
+                    >
                       +1 978-876-1241
                     </Link>
                   </p>
-                  <p className="text-muted-foreground text-sm mt-1 font-sans">marciaglowstudio@gmail.com</p>
+                  <p className="text-muted-foreground text-sm mt-1 font-sans">
+                    marciaglowstudio@gmail.com
+                  </p>
                 </div>
               </div>
             </div>
@@ -85,9 +96,12 @@ export function ContactSection() {
               {/* Quick booking CTA */}
               <div className="relative bg-accent/10 border border-accent/30 rounded-2xl p-8 overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-accent/5 rounded-full blur-3xl" />
-                <h3 className="text-2xl font-medium text-foreground mb-3 relative z-10 font-sans">Book Your Visit     </h3>
+                <h3 className="text-2xl font-medium text-foreground mb-3 relative z-10 font-sans">
+                  Book Your Visit{' '}
+                </h3>
                 <p className="text-muted-foreground mb-6 relative z-10 font-sans">
-                  Schedule your appointment instantly via WhatsApp or Instagram DM. We respond within minutes.
+                  Schedule your appointment instantly via WhatsApp or Instagram DM. We respond
+                  within minutes.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 relative z-10">
                   <Link
@@ -120,7 +134,9 @@ export function ContactSection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
                   <p className="text-foreground font-medium font-sans">Welcome to our space</p>
-                  <p className="text-muted-foreground text-sm font-sans">Where beauty meets elegance</p>
+                  <p className="text-muted-foreground text-sm font-sans">
+                    Where beauty meets elegance
+                  </p>
                 </div>
               </div>
             </div>

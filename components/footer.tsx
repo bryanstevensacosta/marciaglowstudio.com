@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from 'next/image'
 
 export function Footer() {
   return (
@@ -11,7 +11,9 @@ export function Footer() {
           height={43}
           className="h-8 w-auto"
         />
-        <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} All rights reserved. </p>
+        <p className="text-sm text-muted-foreground">
+          © {new Date().getFullYear()} All rights reserved.{' '}
+        </p>
       </div>
     </footer>
   )
