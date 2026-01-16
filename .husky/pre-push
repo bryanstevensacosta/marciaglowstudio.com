@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Check code formatting before push
+echo "🎨 Checking code formatting..."
+pnpm exec prettier --check . || {
+  echo "❌ Code formatting issues found!"
+  echo "💡 Run 'pnpm format' to fix formatting issues"
+  exit 1
+}
+
+echo "✅ Code formatting looks good!"
