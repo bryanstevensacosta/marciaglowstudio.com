@@ -17,7 +17,7 @@ export function ContactSection() {
         {/* Map and contact info grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Left side - Google Map */}
-          <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden border border-accent/20">
+          <div className="relative h-[400px] rounded-2xl overflow-hidden border border-accent/20">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.2853905673664!2d-70.9441154238853!3d42.46421857118347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e36ce8164f9587%3A0x4266c736840a643a!2s14%20Mt%20Vernon%20St%2C%20Lynn%2C%20MA%2001901%2C%20EE.%20UU.!5e0!3m2!1ses!2sdo!4v1768186032471!5m2!1ses!2sdo"
               width="100%"
