@@ -24,7 +24,6 @@ resource "github_branch_protection" "master" {
     dismiss_stale_reviews           = true
     require_code_owner_reviews      = false
     required_approving_review_count = 0
-    dismiss_stale_reviews_on_push   = true
   }
 
   # Require status checks to pass
