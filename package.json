@@ -5,11 +5,11 @@
   "license": "UNLICENSED",
   "author": {
     "name": "Bryan Acosta",
-    "email": "marciaglowstudio@gmail.com"
+    "email": "bryanstevensacosta@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bryanacosta/marciaglowstudio"
+    "url": "https://github.com/bryanstevensacosta/marciaglowstudio"
   },
   "scripts": {
     "build": "next build",

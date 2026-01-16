@@ -1,7 +1,7 @@
 variable "github_owner" {
   description = "GitHub username or organization"
   type        = string
-  default     = "cryptoganster"
+  default     = "bryanstevensacosta"
 }
 
 variable "github_token" {
@@ -13,5 +13,5 @@ variable "github_token" {
 variable "github_email" {
   description = "GitHub email for commits"
   type        = string
-  default     = "marciaglowstudio@gmail.com"
+  default     = "bryanstevensacosta@gmail.com"
 }
