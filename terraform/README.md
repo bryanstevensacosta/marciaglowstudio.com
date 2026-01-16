@@ -29,7 +29,7 @@ Together they ensure:
    Create one at: https://github.com/settings/tokens/new
 
 3. **GitHub Secret** for Actions:
-   - Go to: https://github.com/cryptoganster/marciaglowstudio.com/settings/secrets/actions
+   - Go to: https://github.com/bryanstevensacosta/marciaglowstudio.com/settings/secrets/actions
    - Create a new secret named `GH_PAT` with your GitHub token
    - This allows Terraform workflow to run in GitHub Actions
 
@@ -45,9 +45,9 @@ Together they ensure:
 2. Edit `terraform.tfvars` with your values:
 
    ```hcl
-   github_owner = "cryptoganster"
+   github_owner = "bryanstevensacosta"
    github_token = "ghp_your_actual_token_here"
-   github_email = "marciaglowstudio@gmail.com"
+   github_email = "bryanstevensacosta@gmail.com"
    ```
 
 3. Initialize Terraform:
@@ -101,7 +101,7 @@ The configuration applies the following rules to the `master` branch:
 
 ### 🔒 Access Control
 
-- Only `@cryptoganster` can:
+- Only `@bryanstevensacosta` can:
   - Push directly to master
   - Dismiss pull request reviews
   - Approve and merge pull requests
