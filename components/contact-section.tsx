@@ -157,23 +157,6 @@ export function ContactSection() {
           title="Marcia Glow Studio Location"
           className="grayscale"
         />
-        {/* Overlay with studio info */}
-        <div className="absolute top-6 left-6 bg-background/95 backdrop-blur-sm border border-accent/30 rounded-xl p-5 max-w-xs shadow-2xl">
-          <h4 className="text-lg text-accent mb-1 font-sans">Marcia Glow Studio</h4>
-          <p className="text-muted-foreground text-sm mb-3 font-sans">
-            14 Mt Vernon St, Lynn
-            <br />
-            MA, 01901, EE.UU.
-          </p>
-          <Link
-            href="https://www.google.com/maps/place/14+Mt+Vernon+St,+Lynn,+MA+01901"
-            target="_blank"
-            className="inline-flex items-center gap-2 text-sm text-accent hover:underline"
-          >
-            <MapPin className="w-4 h-4" />
-            Open in Google Maps
-          </Link>
-        </div>
       </div>
     </section>
   )
