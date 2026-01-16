@@ -1,0 +1,9 @@
+# CODEOWNERS file
+
+* @cryptoganster
+
+# Specific paths
+/terraform/ @cryptoganster
+/.github/ @cryptoganster
+/components/ @cryptoganster
+/app/ @cryptoganster
