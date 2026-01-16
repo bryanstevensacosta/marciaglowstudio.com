@@ -1,4 +1,4 @@
-import { Clock, Phone, MessageCircle, Instagram } from 'lucide-react'
+import { Clock, MessageCircle, Instagram } from 'lucide-react'
 import Link from 'next/link'
 
 export function ContactSection() {
@@ -56,27 +56,6 @@ export function ContactSection() {
                     <span className="text-accent font-sans">Closed</span>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            {/* Phone card */}
-            <div className="bg-background border border-accent/20 rounded-2xl p-6 flex items-start gap-5 hover:border-accent/40 transition-colors">
-              <div className="w-14 h-14 shrink-0 rounded-full bg-accent/10 border border-accent/30 flex items-center justify-center">
-                <Phone className="w-6 h-6 text-accent" strokeWidth={1.5} />
-              </div>
-              <div>
-                <h3 className="font-medium text-foreground text-lg mb-2 font-sans">Contact</h3>
-                <p className="text-muted-foreground">
-                  <Link
-                    href="tel:+19788761241"
-                    className="hover:text-accent transition-colors font-sans"
-                  >
-                    +1 978-876-1241
-                  </Link>
-                </p>
-                <p className="text-muted-foreground text-sm mt-1 font-sans">
-                  marciaglowstudio@gmail.com
-                </p>
               </div>
             </div>
 
