@@ -34,10 +34,10 @@ resource "github_branch_protection" "master" {
   }
 
   # Enforce all commits are made to a non-protected branch and submitted via a pull request
-  enforce_admins = false
+  enforce_admins = true
 
-  # Require signed commits (optional for solo dev)
-  require_signed_commits = false
+  # Require signed commits
+  require_signed_commits = true
 
   # Require linear history (no merge commits)
   required_linear_history = true
