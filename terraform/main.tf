@@ -22,8 +22,9 @@ resource "github_branch_protection" "master" {
   # Require pull request reviews before merging
   required_pull_request_reviews {
     dismiss_stale_reviews           = true
-    require_code_owner_reviews      = true
-    required_approving_review_count = 1
+    require_code_owner_reviews      = false
+    required_approving_review_count = 0
+    dismiss_stale_reviews_on_push   = true
   }
 
   # Require status checks to pass
@@ -33,10 +34,10 @@ resource "github_branch_protection" "master" {
   }
 
   # Enforce all commits are made to a non-protected branch and submitted via a pull request
-  enforce_admins = true
+  enforce_admins = false
 
-  # Require signed commits
-  require_signed_commits = true
+  # Require signed commits (optional for solo dev)
+  require_signed_commits = false
 
   # Require linear history (no merge commits)
   required_linear_history = true
